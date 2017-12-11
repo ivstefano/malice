@@ -197,16 +197,16 @@ title = "Malice Plugin Configurations"
   mime = "*"
   env = ["MALICE_TIMEOUT"]
 
-[[plugin]]
-  enabled = true
-  name = "sophos"
-  description = "Sophos AntiVirus"
-  category = "av"
-  image = "malice/sophos"
-  repository = "https://github.com/malice-plugins/sophos.git"
-  build = false
-  mime = "*"
-  env = ["MALICE_TIMEOUT"]
+#[[plugin]]
+#  enabled = true
+#  name = "sophos"
+#  description = "Sophos AntiVirus"
+#  category = "av"
+#  image = "malice/sophos"
+#  repository = "https://github.com/malice-plugins/sophos.git"
+#  build = false
+#  mime = "*"
+#  env = ["MALICE_TIMEOUT"]
 
 [[plugin]]
   enabled = false
